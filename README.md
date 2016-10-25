@@ -1,2 +1,2 @@
 # jobs
-The purpose of this repo is to provide jobs opportunities in areas where Christianity is the strong minority.
+Linking professionals with insight and opportunities to work in Christian minority areas.
