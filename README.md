@@ -22,8 +22,11 @@ Godspeed!  - Joel Travis
     + This [API](http://www.careerjet.ae/partners/api/) is supported by Java, Perl, PHP, Python and Ruby.
 2. Rural or poorly defined job markets
     + In areas where there are no job listings we can look for the trends of business in that areas and simply educate interested people on what industries they likely could find work if they dug deeper or launched and entrepeneurial endeavor.  
-    + The [worldbank enterprise survey](http://microdata.worldbank.org/index.php/catalog/enterprise_surveys/about) could be valuable for this but it does not seem to be tabular.  A non-programer could use this to generate a summary of a rural area that is unreached as a case-study.  
+    + The [databank.worldbank.org](http://databank.worldbank.org/data/reports.aspx?source=jobs&Type=TABLE&preview=on) provides excellent tabular exports of economic data to help assess industries in each country.  Some samples are included in data-raw.
     + [Economy Watch](http://www.economywatch.com/economic-statistics/) Does serve up a more tabulated data set but it is still on a website and not able to be downlaoded.
 3. Unstable job markets / countries
     + There is also a third category which in 2016 could be represented by Northern Iraq or Syria.  These spots are arguably in the most need for people to go but don't have "stable jobs".  A resource such as [Idealist.org](http://www.idealist.org/search/v2/?qs=QlpoOTFBWSZTWY84T0oAAHEfgAMAcAIBIAAAvvf_4DAAptCUKYp-lPSepiNHpqeo0EpJ6ag0GQADQJST1NqZAGgAaL1I7y0rC1Em46oqzKR2NpNJRuC_MBlT5gylK4qOINOyYewydBDl4R0fc-qVhUQ701Mj82phFMhB5BCSNgVcMKncHyNAe5UcLQTrSYOcMRzkLvAwhaNEm8QWQ1T8RppQ4T4je8ZVdTU5Ni5jcWSsWxw_F3JFOFCQjzhPSg==) shows 8 jobs in Iraq currently.  This world region could also focus on existing organizations that are already there.  Further, [this resource covers conflict areas](https://www.insightonconflict.org/conflicts/).   [One more job board focused on English speakers](http://www.transitionsabroad.com/listings/work/careers/index.shtml)For people that have a missional mindset and a skillset in aid relief this is likely where they will be drawn to. 
+    
+### Where is US Economic Data?
+It is sitting at 
 
