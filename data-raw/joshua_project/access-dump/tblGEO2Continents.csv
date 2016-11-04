@@ -1,0 +1,9 @@
+"ROG2","DODCode","Continent","ContinentSpanish","ContinentGerman","ContinentPortuguese","ContinentFrench","Memo","GoogleZoom","GoogleLat","GoogleLng","FlashMapZoom","FlashMapZoomX","FlashMapZoomY","EditName","EditDate"
+"AFR","F","Africa","África","Afrika","África","Afrique",,2,0,22,190,-48,-65,"BM",3/26/2001 0:00:00
+"ANT","T","Antarctica","Antártida","Antarktis","Antártica","Antartique",,,,,0,0,0,"BM",3/26/2001 0:00:00
+"ASI","A","Asia","Asia","Asien","Ásia","Asie","Includes Russia",2,40,79,150,-56,-8,"BM",3/26/2001 0:00:00
+"AUS","U","Australia","Australia","Australien","Austrália","Australie","Includes New Zealand and Papua New Guinea",3,-24,135,250,-165,-160,"BM",3/26/2001 0:00:00
+"EUR","E","Europe","Europa","Europa","Europa","Europe",,3,57,21,300,-107,-5,"BM",3/26/2001 0:00:00
+"LAM","S","South America","América del Sur","Südamerika","América do Sul","Amérique du Sud","Includes Central America",2,-20,-60,175,2,-80,"BM",4/5/2001 0:00:00
+"NAR","N","North America","América del Norte","Nordamerika","América do Norte","Amérique du Nord","Includes Mexico",2,46,-100,175,15,0,"BM",3/26/2001 0:00:00
+"SOP","O","Oceania","Oceanía","Ozeanien","Oceania","Océanie","Includes all islands groups, wherever found",2,-20,170,300,-214,-200,"BM",4/5/2001 0:00:00

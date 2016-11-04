@@ -1,0 +1,18 @@
+"PeopleID1","AffinityBloc","AffinityBlocSpanish","AffinityBlocGerman","AffinityBlocPortuguese","AffinityBlocFrench","ROP1","MapColor","GoogleMapLat","GoogleMapLng","GoogleMapZoom","Source","EditName","EditDate"
+10,"Arab World","Mundo Árabe","Arabische Welt","Mundo Árabe","Monde Arabe","A001","3aac4c",19.00,18.00,3.00,,"BM",7/22/2003 0:00:00
+11,"East Asian Peoples","Asia Oriental","Ostasiatische Völker","Povos do Leste Asiático","Peuples de l'Asie de l'Est","A002","f7ee6a",32.00,100.00,3.00,,"BM",7/22/2003 0:00:00
+12,"Eurasian Peoples","Euroasiático","Eurasische Völker","Povos da Eurásia","Peuples de l'Eurasie","A003","ffefbd",25.00,12.00,2.00,,"BM",7/22/2003 0:00:00
+13,"Horn of Africa Peoples","Etnias Cuerno de África","Horn Afrikas - Kuschitische Völker","Povos do Chifre da África-Cuchíticos","Cornes de l'Afrique/peuples Couchitiques","A004","d37429",8.50,35.00,3.00,,"BM",7/22/2003 0:00:00
+14,"Persian-Median","Persa-Medo","Persisch-Zentralasiatische Völker","Iranianos-Medos","Iranien Médiane","A005","20306c",31.60,60.80,3.00,,"BM",6/17/2005 0:00:00
+15,"Jews","Judío","Juden","Judeus","Juifs","A006","710f11",25.00,12.00,2.00,,"BM",7/22/2003 0:00:00
+16,"Latin-Caribbean Americans","Latinoamericano-Caribeño","Lateinamerikanische und Karibische Völker","Latino-Americanos","Amérique Latine et les Caraïbes","A007","e61e24",-8.00,-85.00,3.00,,"BM",7/22/2003 0:00:00
+17,"Malay Peoples","Malayo","Malaiische Völker","Povos Malaios","Peuples Malais","A008","acd566",6.00,122.00,3.00,,"BM",7/22/2003 0:00:00
+18,"North American Peoples","América del Norte","Nordamerikanische Völker","Povos Norte-Americanos","Peoples de l'Amérique du Nord","A009","f87d80",31.00,-87.00,3.00,,"BM",7/22/2003 0:00:00
+19,"Pacific Islanders","Isleño del Pacífico","Pazifische Inselbewohner","Ilhéus do Pacífico","Îles du Pacifique","A010","418c71",-17.00,156.00,3.00,,"BM",7/22/2003 0:00:00
+20,"Southeast Asian Peoples","Sureste de Asia","Südostasiatische Völker","Povos do Sudeste Asiático","Peuples de l'Asie du Sud-Est","A011","e84e21",17.00,105.00,4.00,,"BM",7/22/2003 0:00:00
+21,"South Asian Peoples","Sur de Asia","Südasiatische Völker","Povos do Sul Asiático","Peuples de l'asie du Sud","A012","a7892f",22.00,81.00,3.00,,"BM",7/22/2003 0:00:00
+22,"Sub-Saharan Peoples","Etnias Subsaharianas","Schwarzafrikanische Völker","Africanos Subsaarianos","Afrique sub-saharienne","A013","9e4821",-6.50,22.00,3.00,,"BM",7/22/2003 0:00:00
+23,"Tibetan-Himalayan Peoples","Tibetano-Himalaya","Völker Tibets und des Himalaya","Povos Tibetanos/Himalaios","Peuples Tibétains/Himalayiens","A014","426eb5",24.70,94.00,4.00,,"BM",7/22/2003 0:00:00
+24,"Turkic Peoples","Turco","Turkvölker","Povos Túrquicos","Peoples Turques","A015","b57bb5",38.00,52.00,3.00,,"BM",7/22/2003 0:00:00
+25,"Unclassified","No Definido","Unklassifizierte ","Não Classificados","Non-classés","A016",,25.00,12.00,2.00,,"BM",7/22/2003 0:00:00
+26,"Deaf","Sordo","Taube","Surdo","Malentendant","A017",,25.00,12.00,2.00,,"BM",3/27/2012 0:00:00

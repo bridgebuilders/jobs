@@ -1,0 +1,34 @@
+"RLG4","RLG3","ReligionSubdivision","ReligionSubdivisionSpanish","ReligionSubdivisionGerman","ReligionSubdivisionPortuguese","ReligionSubdivisionFrench","ReligionSubdivisionIndonesian","EditName","EditDate"
+1,1,"Anglican","Anglicanismo","Anglikanische Kirche","Anglicano","Anglican","Anglikan","BM",10/7/2004 0:00:00
+2,1,"Independent","Independiente","Unabhängige Kirchen","Independente","Indépendant","Independen","BM",10/7/2004 0:00:00
+3,1,"Protestant","Protestante","Protestantische Kirchen","Protestante","Protestant","Protestan","BM",10/7/2004 0:00:00
+4,1,"Orthodox","Ortodoxo","Orthodoxe Kirche","Ortodoxo","Orthodoxe","Ortodoks","BM",10/7/2004 0:00:00
+5,1,"Other / Marginal","Otro / Marginal","Andere / Randgruppen","Outro / Marginal","Autre/marginal","Lainnya/Sedikit","BM",10/7/2004 0:00:00
+6,1,"Roman Catholic","Católico Romano","Römisch-Katholische Kirche","Católico Romano","Catholique Romain","Katolik Roma","BM",10/7/2004 0:00:00
+10,2,"Theravada","Theravada","Theravada","Theravada","Théravada","Theravada","BM",10/7/2004 0:00:00
+11,2,"Tibetan","Tibetano","Tibetischer Buddhismus","Tibetano","Tibetain","Tibet","BM",10/7/2004 0:00:00
+12,2,"Mahayana","Mahayana","Mahayana","Mahayana","Mahayana","Mahayana","BM",10/7/2004 0:00:00
+13,4,"Chinese Folk","Religión Popular China","Chinesische Volksreligionen","Popular Chinesa","Religion Populaire Chinoise","Kepercy. China","BM",10/7/2004 0:00:00
+14,4,"Judaism","Judaísmo","Judentum","Judaísmo","Judaïsme","Yudaisme","BM",10/7/2004 0:00:00
+15,4,"Shintoism","Shintoísmo","Shintoismus","Xintoísmo","Shintoïsme","Sinto","BM",10/7/2004 0:00:00
+16,4,"Animism","Animismo","Animismus","Animismo","Animisme","Animisme","BM",10/7/2004 0:00:00
+17,4,"Traditional","Tradicional","Traditionell","Tradicional","Traditionnel","Tradisional","BM",10/7/2004 0:00:00
+18,6,"Shia","Chiísmo","Schiiten","Xiismo","Chiites","Syiah","BM",10/7/2004 0:00:00
+19,6,"Sufi","Sufismo","Sufismus","Sufismo","Soufi","Sufi","BM",10/7/2004 0:00:00
+20,6,"Sunni","Sunismo","Sunniten","Sunismo","Sunnites","Sunni","BM",10/7/2004 0:00:00
+21,6,"Syncretized","Sincretizado","Synkretismus","Sincretizado","Syncrétisme","Sinkretisme","BM",10/7/2004 0:00:00
+22,8,"Baha'i","Baha'i","Bahaismus","Baha'i","Baha'ie","Baha'i","BM",10/7/2004 0:00:00
+23,8,"Jainism","Jainismo","Jainismus","Jainismo","Jaïnisme","Jainisme","BM",10/7/2004 0:00:00
+24,8,"Sikhism","Sikhismo","Sikhismus","Siquismo","Sikhisme","Sikhisme","BM",10/7/2004 0:00:00
+25,8,"Zoroastrianism","Zoroastrismo","Zoroastrianismus","Zoroastrianismo","Zoroastrisme","Zoroastrianisme","BM",10/7/2004 0:00:00
+26,4,"Ancestor Worship","Culto a los Ancestros","Ahnenkult","Veneração de antepassados","Vénération des Ancêtres","Sembah Leluhur","BM",10/7/2004 0:00:00
+27,4,"Polytheism","Politeísmo","Polytheismus","Politeísmo","Polythéisme","Politeisme","BM",10/7/2004 0:00:00
+28,4,"Samaritanism","Samaritanismo","Samaritaner","Samaritanismo","Samaratanisme","Samaritanisme","BM",10/7/2004 0:00:00
+29,4,"Daoism","Taoísmo","Daoismus","Taoísmo","Saoisme","Tao","BM",10/7/2004 0:00:00
+30,4,"Shamanism","Chamanismo","Shamanismus","Xamanismo","Chamanisme","Perdukunan","BM",10/7/2004 0:00:00
+31,4,"Confucianism","Confucianismo","Konfuzianismus","Confucionismo","Confucianisme","Konfusianisme","BM",10/7/2004 0:00:00
+32,8,"Druze","Druso","Drusen","Druso","Druzes","Druze","BM",10/7/2004 0:00:00
+35,6,"Shia Imami Ismaili","Ismailismo","Ismailiten","Ismailismo","Chiites Ismaéliens Imami","Syiah Imami Ismaili","BM",5/19/2005 0:00:00
+36,8,"Kirati","Kirati","Kirati","Kirati","Kirant","Kirati","BM",4/12/2016 0:00:00
+37,8,"Mandaism","Mandaism","Mandaism","Mandaism","Mandaism","Mandaisme","BM",8/26/2008 0:00:00
+38,8,"Lingayat","Lingayat","Lingayat","Lingayat","Lingayat","Lingayat","BM",5/10/2011 0:00:00
