@@ -22,8 +22,9 @@ Godspeed!
 #### Find jobs market in that area
 1. Urban or well defined job markets
     + These areas range from large urban centers to the most rural areas in the world.  Some of these places have a steady supply of jobs available through the internet.  In these areas we can simply find job listings applicable to that area and provide them as a resource.  
-    + One API that has world coverage is [careerjet.ae](http://www.careerjet.ae/).
+    + One API that has world coverage is [careerjet.ae](http://www.careerjet.ae/). 
     + This [API](http://www.careerjet.ae/partners/api/) is supported by Java, Perl, PHP, Python and Ruby.
+    + affid=285def1aa819b8b7211f291d2b5f8bf0 (or sign up for your own)
 2. Rural or poorly defined job markets
     + In areas where there are no job listings we can look for the trends of business in that areas and simply educate interested people on what industries they likely could find work if they dug deeper or launched and entrepeneurial endeavor.  
     + The [databank.worldbank.org](http://databank.worldbank.org/data/reports.aspx?source=jobs&Type=TABLE&preview=on) provides excellent tabular exports of economic data to help assess industries in each country.  Some samples are included in data-raw.
