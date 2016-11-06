@@ -133,7 +133,7 @@ shinyServer(function(input, output, session) {
           if(nrow(peopleGroupsFilteredTable) != 0){
             
             jpTable <- unique(peopleGroupsFilteredTable) %>% select(one_of('PeopNameAcrossCountries','PeopleCluster','PrimaryLanguageName','Ctry','CtryLiteracyRate','PrimaryReligion','PercentAdherents','PercentEvangelical'))
-            names(jpTable) <- c('People Group','People Cluster','Language','Country','Literacy Rate','Primary Religion','% Adherents','% Evangelical')
+            names(jpTable) <- c('People Group','People Cluster','Language','Country','Literacy Rate','Primary Religion','% Christian','% Evangelical')
             
             output$uiTable <- renderUI({ DT::dataTableOutput("table", width = 360) })
             output$table <- DT::renderDataTable(jpTable, 
