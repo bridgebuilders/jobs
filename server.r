@@ -110,36 +110,38 @@ shinyServer(function(input, output, session) {
   })
   
   # update DataTable
-#       observeEvent(c(peopleGroupsFiltered(), input$jpMap_marker_click), {
-#         nullTableText <- "<h4>Click on a location for additional detail.</h4>"
-#         
-#         output$uiTable <- renderUI(HTML(nullTableText))
-#         
-#         if(!is.null(input$jpMap_marker_click)){
-#           ### Create DT
-#           x <- peopleGroupsFiltered() %>% filter(PeopleID3 == input$jpMap_marker_click$id)
-#           
-#           # condition on whether there is data, construct message if not
-#           if(nrow(x) != 0){
-#             
-#             jpTable <- peopleGroupsDT %>% select(one_of('PeopNameAcrossCountries','PeopleCluster','PrimaryLanguageName','Ctry','CtryLiteracyRate','PrimaryReligion','PercentAdherents','PercentEvangelical'))
-#             names(jpTable) <- c('People Group','People Cluster','Language','Country','Literacy Rate','Primary Religion','% Adherents','% Evangelical')
-#             
-#             output$uiTable <- renderUI({ DT::dataTableOutput("table", width = 360) })
-#             output$table <- DT::renderDataTable(jpTable, 
-#                                                 colnames = unlist(lapply(names(jpTable), simpleCap)),
-#                                                 options = list(dom = 'ftipr',
-#                                                                order = list(list(1, 'desc')),
-#                                                                pageLength = 5,
-#                                                                scrollX = TRUE))
-#           } else{
-#             output$uiTable <- renderUI(HTML(nullTableText))
-#           }
-#         } else {
-#           output$uiTable <- renderUI(HTML(nullTableText))
-#         }
-#         
-#       })
+      observeEvent(c(peopleGroupsFiltered(), input$jpMap_marker_click), {
+        nullTableText <- "<h4>Click on a location for additional detail.</h4>"
+        
+        output$uiTable <- renderUI(HTML(nullTableText))
+        
+        if(!is.null(input$jpMap_marker_click)){
+          ### Create DT
+          
+          clickedPeopleGroupId <- input$jpMap_marker_click$id
+          peopleGroupsFilteredTable <- peopleGroupsFiltered() %>% filter(PeopleID3 == clickedPeopleGroupId)
+          
+          # condition on whether there is data, construct message if not
+          if(nrow(peopleGroupsFilteredTable) != 0){
+            
+            jpTable <- unique(peopleGroupsFilteredTable) %>% select(one_of('PeopNameAcrossCountries','PeopleCluster','PrimaryLanguageName','Ctry','CtryLiteracyRate','PrimaryReligion','PercentAdherents','PercentEvangelical'))
+            names(jpTable) <- c('People Group','People Cluster','Language','Country','Literacy Rate','Primary Religion','% Adherents','% Evangelical')
+            
+            output$uiTable <- renderUI({ DT::dataTableOutput("table", width = 360) })
+            output$table <- DT::renderDataTable(jpTable, 
+                                                colnames = unlist(lapply(names(jpTable), simpleCap)),
+                                                options = list(dom = 'ftipr',
+                                                               order = list(list(1, 'desc')),
+                                                               pageLength = 5,
+                                                               scrollX = TRUE))
+          } else{
+            output$uiTable <- renderUI(HTML(nullTableText))
+          }
+        } else {
+          output$uiTable <- renderUI(HTML(nullTableText))
+        }
+        
+      })
   
   
   # update people group name on hover
