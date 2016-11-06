@@ -41,7 +41,7 @@ shinyUI(bootstrapPage(
                                                                   choices = c("All", sort(allChoices$Ctry)), 
                                                                   selected = "All", 
                                                                   multiple = FALSE),
-                                                      actionButton(inputId = "action", "Update Data")
+                                                      actionButton(inputId = "action", "Update")
                                              ),
                                              tabPanel(title = "Analyze", 
                                                       value = "analyze",
