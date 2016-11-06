@@ -12,8 +12,6 @@ simpleCap <- function(x) {
 
 shinyServer(function(input, output, session) {
   
-  #load(file = 'jp_people_groups.rda')
-  
   # sort out how to limit filters based on selections already made
   # first deal with Continent
   observeEvent(input$continent, {

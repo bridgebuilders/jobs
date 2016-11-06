@@ -1,5 +1,4 @@
 
-# Define UI for application that draws a histogram
 shinyUI(bootstrapPage(
   tags$style(type = "text/css", "html, body {width:100%;height:100%}"),
   tags$head(includeCSS("panelStyle.css")),
