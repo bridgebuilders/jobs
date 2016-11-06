@@ -40,7 +40,8 @@ shinyUI(bootstrapPage(
                                                                   label = HTML("<h4>Select a country:</h4>"), 
                                                                   choices = c("All", sort(allChoices$Ctry)), 
                                                                   selected = "All", 
-                                                                  multiple = FALSE)
+                                                                  multiple = FALSE),
+                                                      actionButton(inputId = "action", "Update Data")
                                              ),
                                              tabPanel(title = "Analyze", 
                                                       value = "analyze",

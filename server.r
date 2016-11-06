@@ -15,7 +15,6 @@ shinyServer(function(input, output, session) {
   # sort out how to limit filters based on selections already made
   # first deal with Continent
   observeEvent(input$continent, {
-    
     if(input$continent == "All"){
       selectedChoices <- allChoices
     } else {
@@ -30,13 +29,22 @@ shinyServer(function(input, output, session) {
                       choices = c("All", sort(selectedChoices$Ctry)))
   })
   
+  
   observeEvent(input$region, {
-    
-    if(input$region == "All"){
-      selectedChoices <- allChoices
-    } else {
-      selectedChoices <- allChoices %>% filter(allChoices$RegionName == input$region)
-    }
+    #if(input$continent == "All"){
+      if(input$region == "All"){
+        selectedChoices <- allChoices
+      } else {
+        selectedChoices <- allChoices %>% filter(allChoices$RegionName == input$region)
+      }
+      
+#     } else {
+#       if(input$region == "All"){
+#         selectedChoices <- allChoices %>% filter(allChoices$Continent == input$continent)
+#       } else {
+#         selectedChoices <- allChoices %>% filter(allChoices$Continent == input$continent & allChoices$RegionName == input$region)
+#       }
+#     }
     
     updateSelectInput(session, 
                       inputId = "country",
@@ -52,7 +60,7 @@ shinyServer(function(input, output, session) {
   })
   
   # filter data
-  peopleGroupsFiltered <- eventReactive(c(input$continent, input$region, input$country), {
+  peopleGroupsFiltered <- eventReactive(input$action, {
     peopleGroupsDT_Filter <- peopleGroupsDT
     
     if(input$continent != "All"){
@@ -145,7 +153,7 @@ shinyServer(function(input, output, session) {
   
   
   # update people group name on hover
-  defaultText <- as.character("<h4><br><b>Hover over a location for people group names.</b><br></h4><hr>")
+  defaultText <- as.character("<h4><br><b>Hover over a location for people group names.</b></h4><hr>")
   
   observeEvent(input$jpMap_marker_mouseout, {
     output$people <- renderPrint({
@@ -156,7 +164,7 @@ shinyServer(function(input, output, session) {
   
   observeEvent(input$jpMap_marker_mouseover, {
     output$people <- renderPrint({
-      HTML(paste0("<h4><br><b>People Group: </b>", as.character(unique(peopleGroupsFiltered()[peopleGroupsFiltered()$PeopleID3 == input$jpMap_marker_mouseover$id,]$PeopNameAcrossCountries)), "<br></h4><hr>"))
+      HTML(paste0("<h4><br><b>People Group: </b>", as.character(unique(peopleGroupsFiltered()[peopleGroupsFiltered()$PeopleID3 == input$jpMap_marker_mouseover$id,]$PeopNameAcrossCountries)), "<br><br></h4><hr>"))
     })
   }, ignoreNULL = TRUE)
   
