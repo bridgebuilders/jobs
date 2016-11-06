@@ -1,8 +1,4 @@
-library(shiny)
-library(DT)
-library(leaflet)
-library(data.table)
-library(RColorBrewer)
+
 
 # simple function to capitalize first letter of each word in a string
 simpleCap <- function(x) {
@@ -13,8 +9,6 @@ simpleCap <- function(x) {
         sep = "", 
         collapse = " ")
 }
-
-
 
 shinyServer(function(input, output, session) {
   
