@@ -22,6 +22,7 @@ system.time({
     
       tryCatch({
         responseDF <- findNearbyPlaceName(dat = peopleGroupsDT[i])
+        responseDF$i <- i
         #responseDF$peopleGroupId3 <- paste0(peopleGroupsDT$PeopleID3[i])
         reverseGeocodes[[i]] <- responseDF
         Sys.sleep(0.1)
@@ -38,7 +39,10 @@ system.time({
 })
 
 reverseGeocodesDT <- rbindlist(reverseGeocodes)
-write.csv(x = churches2, file = 'churches_with_reverse_geocodes.csv', row.names = FALSE)
+reverseGeocodesDT <- as.data.frame(reverseGeocodesDT)
+
+
+write.csv(x = reverseGeocodesDT, file = 'people_groups_with_reverse_geocodes.csv', row.names = FALSE)
 
 
 
