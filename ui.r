@@ -1,13 +1,3 @@
-library(shiny)
-library(DT)
-library(leaflet)
-library(data.table)
-library(RColorBrewer)
-
-#load(file = 'jp_people_groups.rda')
-
-
-##########################################################################################################
 
 # Define UI for application that draws a histogram
 shinyUI(bootstrapPage(
