@@ -17,7 +17,7 @@ shinyUI(bootstrapPage(
                    absolutePanel(HTML("<h3><center><b> Bridge Builders </b></center></h3>"), 
                                  id = "panel", 
                                  class = "panel panel-default", 
-                                 top = 45, right = 10, width = 400, height = "auto", 
+                                 top = 10, right = 10, width = 400, height = "auto", 
                                  fixed = TRUE, 
                                  draggable = FALSE,
                                  
