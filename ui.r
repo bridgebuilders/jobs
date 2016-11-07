@@ -1,15 +1,4 @@
-library(shiny)
-library(DT)
-library(leaflet)
-library(data.table)
-library(RColorBrewer)
 
-#load(file = 'jp_people_groups.rda')
-
-
-##########################################################################################################
-
-# Define UI for application that draws a histogram
 shinyUI(bootstrapPage(
   tags$style(type = "text/css", "html, body {width:100%;height:100%}"),
   tags$head(includeCSS("panelStyle.css")),
@@ -28,7 +17,7 @@ shinyUI(bootstrapPage(
                    absolutePanel(HTML("<h3><center><b> Bridge Builders </b></center></h3>"), 
                                  id = "panel", 
                                  class = "panel panel-default", 
-                                 top = 45, right = 10, width = 400, height = "auto", 
+                                 top = 10, right = 10, width = 400, height = "auto", 
                                  fixed = TRUE, 
                                  draggable = FALSE,
                                  
@@ -51,7 +40,8 @@ shinyUI(bootstrapPage(
                                                                   label = HTML("<h4>Select a country:</h4>"), 
                                                                   choices = c("All", sort(allChoices$Ctry)), 
                                                                   selected = "All", 
-                                                                  multiple = FALSE)
+                                                                  multiple = FALSE),
+                                                      actionButton(inputId = "action", "Update")
                                              ),
                                              tabPanel(title = "Analyze", 
                                                       value = "analyze",
